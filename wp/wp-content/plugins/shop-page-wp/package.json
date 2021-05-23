@@ -1,0 +1,29 @@
+{
+  "name": "Shop_Page_WP",
+  "version": "1.2.2",
+  "license": "GPL-2.0-or-later",
+  "main": "block.js",
+  "description": "a custom wordpress plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonmagee/shop-page-wp"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-wp-pot": "^2.3.5",
+    "jshint": "^2.10.2"
+  },
+  "scripts": {
+    "start": "wp-scripts start assets/blocks/shop-page-wp-block.js",
+    "build": "wp-scripts build assets/blocks/shop-page-wp-block.js"
+  }
+}

@@ -1,0 +1,124 @@
+//full-width header search modal hidden by default
+#search-open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transform: scale(0.3, 0.3);
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
+  z-index: 10;
+  padding-top: 2em;
+}
+
+//display full-width header search modal when the search menu icon lin is clicked
+#search-open:target {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1, 1);
+}
+
+.search-close {
+  display: none;
+}
+
+// Hide Search icon on pages widget
+.widget_pages .search-item {
+  display: none;
+}
+
+@media (min-width: 40em) {
+  .search-item {
+    .search-icon {
+      display: block;
+      padding-top: 0;
+    }
+
+    .search-form {
+      display: none;
+    }
+  }
+
+  .fixed-header .search-item .ionicon-search {
+    fill: #666;
+  }
+
+  .search-close {
+    display: block;
+    cursor: default;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+  }
+
+  .search-box-wrap {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+  }
+
+  .header-search-form {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+
+    .search-form {
+      width: 100%;
+      position: relative;
+      button {
+        background-color: transparent;
+      }
+    }
+
+    .search-field {
+      width: 100%;
+      height: 55px;
+      border: 0;
+      border-bottom: 2px solid #d3d3d3;
+
+      &:focus {
+        outline: 1px dotted;
+        border-bottom: 2px solid transparent;
+      }
+
+      &::placeholder {
+        font-size: 20px;
+        font-style: italic;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 0;
+      border: 0;
+      top: 4px;
+
+      .ionicon-search {
+        fill: #999;
+      }
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 2%;
+    top: 7%;
+  }
+
+  .close-btn {
+    background-color: transparent;
+  }
+}

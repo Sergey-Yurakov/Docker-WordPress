@@ -1,0 +1,34 @@
+/*!
+Theme Name: Pliska
+Theme URI: https://nasiothemes.com/themes/pliska
+Author: Atanas Yonkov
+Author URI: https://nasiothemes.com
+Description: Pliska is a beautiful, next-generation WordPress theme with powerful theme options. It is designed for creating high quality blogs, multi-author publishing platforms, portfolio and company websites. It is fully customizable, with lots of features, looks great and behaves flowlessly on any device, screen size and browser. This modern theme features ready-to-use block patterns, with which you can create your new website in minutes. The theme is optimized for speed and SEO. It features Schema.org markup and is WCAG 2.0 (Level AA) compliant. Make your site truely unique with three different page layouts, different header options, Google fonts and take advantage of all the other awesome free features such as social share for posts, author box, related posts, different menu positions and mega menu functionality. Another awesome feature is that site visitors can switch between light and dark theme mode with a single click. The theme is fully compatible with Gutenberg but also supports the good old classic editor. It also provides a seemless integration with all the popular page builders. Support for WooCommerce and popular WordPress plugins is also fully guarantied. Try it at https://try-pliska.nasiothemes.com/test-drive/
+Version: 0.1.9
+Requires at least: 4.4
+Tested up to: 5.7
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pliska
+Tags: block-patterns, block-styles, blog, portfolio, e-commerce, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, left-sidebar, one-column, two-columns, right-sidebar, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Pliska is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/**
+ * This file is here to make WordPress happy. Do not modify.
+ *
+ * The actual stylesheets can be found in assets/css but this
+ * theme uses sass so they are preprocessed from assets/scss.
+ *
+ * If you want to add custom css to this theme, go to 
+ * Theme Customizer => Additional CSS tab
+ */

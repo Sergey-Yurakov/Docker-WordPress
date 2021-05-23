@@ -1,0 +1,71 @@
+.header-buttons {
+    padding-top: 2em;
+    .btn {
+        padding: 1em;
+        position: relative;
+        border-radius: 4px;
+        &:before {
+            opacity: 0.65;
+            @include header-buttons-animation;
+          }
+        &:hover::before {
+            opacity: 0;
+            transform: scale(1.2, 1.5);
+        }
+        &:focus{
+            outline: thin dotted #fff;
+            outline-offset: 5px;
+        }
+    }
+    .left-btn {
+        padding-right: 1em;
+        button {
+            color: #404040;
+            
+        }
+    }
+    .right-btn {
+        .btn {
+            background: transparent;
+            border-radius: 4px;
+            color: #fff;
+            border: 2px solid rgba(255,255,255, .9);
+            &:before {
+                border: 2px solid transparent;
+                transition: 0.5s all;
+            }
+            &:hover::before{
+                border: 2px solid;
+                transform: scale(1.2, 1.5);
+            } 
+        }
+    }
+}
+
+//Buttons transition
+.wp-block-button__link {
+    position: relative;
+    &:before {
+      opacity: 0.65;
+      @include header-buttons-animation;
+    }
+    &:hover::before {
+      opacity: 0;
+      transform: scale(1.2, 1.5);
+    }
+  }
+  
+  .wp-block-button__link.has-green-color::before, .wp-block-button__link.has-yellow-color::before {
+      border: 2px solid transparent;
+      transition: 0.5s all;
+  }
+  
+  .wp-block-button__link.has-green-color:hover::before, .wp-block-button__link.has-yellow-color:hover::before {
+      border: 2px solid;
+  }
+
+  @media (min-width:40em) {
+    .header-buttons {
+        padding-top: .5em;
+      }
+  }

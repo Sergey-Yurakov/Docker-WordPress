@@ -1,0 +1,1438 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pliska\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 07:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: pliska"
+
+#: inc/customizer-sections/header-options.php:453
+msgid " Choose how to animate the page title on page load."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:72
+msgid ""
+" Position the menu to stick to the top of the screen when scrolling down or "
+"keep it above the fold."
+msgstr ""
+
+#: inc/template-tags.php:517
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%1$s ago"
+msgstr ""
+
+#. %s theme name
+#: admin/welcome-notice.php:62
+#, php-format
+msgid "%s Video Guide"
+msgstr ""
+
+#: inc/template-tags.php:496 inc/template-tags.php:522
+msgid "(Edit)"
+msgstr ""
+
+#: admin/theme-intro.php:133
+msgid "1. Where are the theme options?"
+msgstr ""
+
+#: admin/theme-intro.php:262
+msgid "1000+ Google Fonts"
+msgstr ""
+
+#: admin/theme-intro.php:251
+msgid "12"
+msgstr ""
+
+#: admin/theme-intro.php:261
+msgid "15 Google Fonts"
+msgstr ""
+
+#: admin/theme-intro.php:136
+msgid "2. Can I make a website that looks exactly like the theme demo?"
+msgstr ""
+
+#: admin/theme-intro.php:139
+msgid ""
+"3. I have already purchased the premium version. How do I install and "
+"activate it?"
+msgstr ""
+
+#: admin/theme-intro.php:142
+msgid "4. Where are the custom block patterns?"
+msgstr ""
+
+#: admin/theme-intro.php:247
+msgid "5"
+msgstr ""
+
+#. Theme name and version
+#: admin/theme-intro.php:75
+#, php-format
+msgid ""
+"<span class=\"theme-name\">%1$s Theme</span> <span class=\"theme-version\">"
+"(version %2$s)</span>"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:273
+msgid ""
+"A default thumbnail is displayed as a fallback image, when the related post "
+"does not have a featured image. If the post has a featured image, the "
+"featured image will be displayed instead. Recommended size: 300X225px"
+msgstr ""
+
+#: inc/block-patterns.php:59
+msgid "A Services block with a main header and 3 services"
+msgstr ""
+
+#: inc/block-patterns.php:49
+msgid "About Page"
+msgstr ""
+
+#: admin/notices.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:225
+msgid ""
+"Add beautiful parallax effect on the header image. Try it by scrolling down "
+"the page."
+msgstr ""
+
+#: inc/customizer-sections/footer.php:20
+msgid "Add copyright info"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:362
+#: inc/customizer-sections/header-options.php:399
+msgid ""
+"Add link to the button. You can link it to the About page or the Contact "
+"page or to a specific section from the Homepage."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:52
+msgid "Add link to your facebook account."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:71
+msgid "Add link to your instagram account."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:128
+msgid "Add link to your linkedin account."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:90
+msgid "Add link to your twitter account."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:109
+msgid "Add link to your youtube account."
+msgstr ""
+
+#: admin/theme-intro.php:242
+msgid ""
+"Add ready to use gutenberg block patterns with predefined content for an "
+"easier start with the theme."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:14
+msgid ""
+"Add social icons in the site footer. Navigate to your user's profile, copy "
+"the url and paste it in the corresponding field."
+msgstr ""
+
+#: functions.php:183
+msgid ""
+"Add widgets here to appear in your footer. It is recommended that you add "
+"one widget here and two more widgets in Footer 2."
+msgstr ""
+
+#: functions.php:194
+msgid ""
+"Add widgets here to appear in your footer. It is recommended that you add "
+"two widgets here."
+msgstr ""
+
+#: inc/woocommerce.php:48
+msgid "Add widgets here to appear on your shop pages."
+msgstr ""
+
+#: functions.php:172
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:147
+msgid "Add your mail address"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:33
+msgid "Add your phone number"
+msgstr ""
+
+#: inc/block-patterns.php:50
+msgid "An example about us page"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:53
+msgid "Animate the page title text on page load."
+msgstr ""
+
+#. 1: date, 2: time
+#: inc/template-tags.php:513
+msgid "at"
+msgstr ""
+
+#. Author of the theme
+msgid "Atanas Yonkov"
+msgstr ""
+
+#: inc/template-functions.php:607
+msgid "Author: "
+msgstr ""
+
+#: inc/template-functions.php:310
+msgid "Avatar"
+msgstr ""
+
+#: inc/template-functions.php:822
+msgid "Back to top"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:73
+msgid "Background"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:360
+msgid "Banner Link"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:397
+msgid "Banner Link 2"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:340
+msgid "Banner Text"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:379
+msgid "Banner Text 2"
+msgstr ""
+
+#: admin/theme-intro.php:243
+msgid "Block Patterns"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:38
+msgid "Body Font Family"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:56
+msgid "Body Font Size"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:159
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:253
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:436
+msgid ""
+"By default, the header text animation is displayed throughout the whole "
+"website. Check this option if you want to display the page title animation "
+"only on the homepage."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:43
+msgid "Call to Action Buttons"
+msgstr ""
+
+#: inc/block-patterns.php:68
+msgid "Call to action on Homepage"
+msgstr ""
+
+#: inc/woocommerce.php:199
+msgid "Cart View"
+msgstr ""
+
+#: admin/theme-intro.php:268
+msgid "Change Font Sizes"
+msgstr ""
+
+#: admin/theme-intro.php:259
+msgid "Change Fonts"
+msgstr ""
+
+#: inc/customizer-sections/footer.php:9
+msgid "Change footer styles and remove theme credits - go Pro version."
+msgstr ""
+
+#: inc/customizer-sections/layout.php:73
+msgid "Change the default layout of the page that lists products."
+msgstr ""
+
+#: inc/customizer-sections/layout.php:89
+msgid "Change the default layout of the single product page"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:342
+#: inc/customizer-sections/header-options.php:381
+msgid "Change the default text of the button."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:206
+msgid ""
+"Change the height of the header image. Recommended size is between 60-100vh "
+"(default is 100vh). Note: this setting is only for large desktop screens in "
+"order to avoid text overlapping."
+msgstr ""
+
+#: inc/customizer-sections/layout.php:55
+msgid ""
+"Change the layout of all the pages that list blog posts, including the "
+"taxonomy archives (categories, tags, etc.)."
+msgstr ""
+
+#: inc/customizer-sections/layout.php:39
+msgid "Change the layout of the individual blog posts."
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:64
+msgid ""
+"Change the size of the text. Enter a number in pixels between 8 and 30. "
+"Default is 16."
+msgstr ""
+
+#: admin/notices.php:73
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:8
+msgid "Choose between 1000+ google fonts - go pro version."
+msgstr ""
+
+#: admin/theme-intro.php:257
+msgid ""
+"Choose between 1000+ Google Fonts and change font size for the main elements "
+"on the website directly from the Customizer. No coding skills needed!"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:25
+msgid "Choose font for the headlines."
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:42
+msgid "Choose font for the text."
+msgstr ""
+
+#: admin/theme-intro.php:266
+msgid ""
+"Choose font sizes for the main elements on the website directly from the "
+"Customizer. No coding skills needed!"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:179
+msgid "Choose how you want to position the header image."
+msgstr ""
+
+#: inc/customizer-sections/layout.php:23
+msgid ""
+"Choose the default layout of the site's pages, including the static home "
+"page."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:13
+msgid ""
+"Choose what type of post information to show in the post archives or "
+"individual blog posts. The post meta information includes published date, "
+"author, category tags or comments. You can display or remove this "
+"information if you want. You can also enable or disable breadcrumbs. "
+"Breadcrumbs are shown on single posts/pages only and can improve user "
+"experience by making it easier for your readers to navigate on the website."
+msgstr ""
+
+#: admin/theme-intro.php:151
+msgid "Click the image below to open the video guide in a new browser tab."
+msgstr ""
+
+#: inc/template-functions.php:897
+msgid "Click to toggle dark mode"
+msgstr ""
+
+#: inc/template-functions.php:846
+msgid "close"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer.php:314 inc/template-functions.php:684
+#: inc/customizer-sections/header-options.php:371
+msgid "Contact Us"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:27
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:284
+msgid ""
+"Control the gradient density. From 0 to 10. Default is 4. Set it to 0 to "
+"remove the entire gradient."
+msgstr ""
+
+#: inc/customizer-sections/footer.php:27
+msgid "Copyright Notice"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:14
+msgid ""
+"Customize the dark theme mode. For additional customizations, you can use "
+"the \"dark-mode\" body class and add the code to the Additional Css tab."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:18
+#: inc/customizer-sections/header-options.php:35
+#: inc/customizer-sections/header-options.php:44
+msgid ""
+"Customize the header image to taste with the options below. Change width, "
+"height and position of the image. Choose to add or remove the parallax "
+"effect on the image. Customize the call to action button on the header of "
+"the Homepage. Please note: for these options to work, make sure that a "
+"header image is specified in the \"Header Image\" section."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:27
+msgid ""
+"Customize the top menu bar. Show it only on top of the page (static position)"
+", show it all the time (fixed) or show it when you scroll up (sticky). The "
+"default positon is sticky."
+msgstr ""
+
+#: inc/customizer-sections/colors.php:6
+msgid ""
+"Customze the colors of the light theme mode. To customize the dark theme "
+"mode, go to the Night Mode section."
+msgstr ""
+
+#: inc/template-tags.php:193
+msgid "days read"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:6
+msgid ""
+"Decide where to position the sidebar for specific site content. You can use "
+"the sidebar to display widgets. You can choose between left sidebar, right "
+"sidebar (default) and full width layout. To add or remove widgets, go to "
+"\"Widgets\" section."
+msgstr ""
+
+#: inc/custom-header.php:24
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/template-tags.php:297
+msgid "Designed by"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:236
+msgid "Display post author box after post content on single blog posts"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:255
+msgid "Display related posts after post content on single blog posts"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:96
+msgid ""
+"Display the global header image from the Header Image section on all posts "
+"and pages that do not have a specified featured image. Unchecking this "
+"option will keep the global header image on the homepage, the blog page and "
+"posts archives only. Useful when you want to develop your site with a page "
+"builder or Gutenberg blocks."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:115
+msgid "Display the global header image on post archives."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:143
+msgid "Display the number of comments."
+msgstr ""
+
+#: admin/theme-intro.php:103
+msgid "Documentation and Support"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:21 template-parts/content-page.php:34
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: admin/theme-intro.php:278
+msgid "Edit Footer Credits"
+msgstr ""
+
+#: inc/template-tags.php:474
+msgid "Email"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:144
+msgid "Email address"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:32
+msgid "Enable Dark Mode"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:434
+msgid "Enable Header Text Animation on HomePage only"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:478
+msgid ""
+"Enable overlay animation on page scroll. The header image gets darker, while "
+"scrolling down the page."
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:34
+msgid ""
+"Enable site visitors to switch to dark or light theme mode in the header "
+"menu."
+msgstr ""
+
+#: admin/theme-intro.php:286
+msgid "Enables site visitors to vote for posts."
+msgstr ""
+
+#: inc/template-tags.php:413
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-functions.php:539
+msgid "facebook"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:49
+msgid "Facebook Url"
+msgstr ""
+
+#: admin/theme-intro.php:130
+msgid "FAQ"
+msgstr ""
+
+#: admin/theme-intro.php:223
+msgid "Feature"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:7
+msgid "Fonts"
+msgstr ""
+
+#: footer.php:16
+msgid "Footer"
+msgstr ""
+
+#: functions.php:181
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:192
+msgid "Footer 2"
+msgstr ""
+
+#: inc/customizer-sections/footer.php:8
+msgid "Footer Options"
+msgstr ""
+
+#: footer.php:20
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:20 inc/customizer-sections/layout.php:36
+#: inc/customizer-sections/layout.php:52 inc/customizer-sections/layout.php:70
+#: inc/customizer-sections/layout.php:86
+msgid "Full-width"
+msgstr ""
+
+#: inc/block-patterns.php:32 inc/block-patterns.php:41
+msgid "Fullwidth Banner that can be used as a custom page header"
+msgstr ""
+
+#: inc/block-patterns.php:31
+msgid "Fullwidth Header Banner One"
+msgstr ""
+
+#: inc/block-patterns.php:40
+msgid "Fullwidth Header Banner Two"
+msgstr ""
+
+#: inc/customizer.php:294 inc/template-functions.php:682
+#: inc/customizer-sections/header-options.php:331
+msgid "Get Started"
+msgstr ""
+
+#. %s theme name
+#: admin/welcome-notice.php:58
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: admin/theme-intro.php:143
+msgid ""
+"Go to a post or page you want to edit, click \"Edit\" from the top admin bar."
+" From the WordPress Gutenberg editor, select the plus icon in the top left "
+"corner. From there, pick the \"Patterns\" tab and select \"Pliska\" from the "
+"pattern dropdown."
+msgstr ""
+
+#: admin/theme-intro.php:120
+msgid "Go to Pliska Support Forum"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:246
+msgid "Gradient Direction"
+msgstr ""
+
+#: inc/template-functions.php:310
+msgid "Gravatar"
+msgstr ""
+
+#: functions.php:109
+msgid "Green"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:52
+msgid "Header Animations"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:177
+msgid "Header Background Position"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:153
+msgid "Header Background Size"
+msgstr ""
+
+#: inc/template-functions.php:656
+msgid "header image fallback"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:21
+msgid "Header Image Gradient Color One"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:41
+msgid "Header Image Gradient Color Two"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:283
+msgid "Header Image Gradient Density"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:203
+msgid "Header Image Height"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:34
+msgid "Header Image Options"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:476
+msgid "Header Image Overlay Opacity Animation"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:223
+msgid "Header Image Parallax"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:26
+msgid "Header Menu Options"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:70
+msgid "Header Menu Position"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:60
+msgid "Header Menu Text Color"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:17
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:451
+msgid "Header Text Animation"
+msgstr ""
+
+#: inc/customizer-sections/fonts.php:21
+msgid "Headings Font Family"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:140
+msgid "Headings Text Color"
+msgstr ""
+
+#: inc/template-functions.php:786
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:197
+msgid "hrs read"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://nasiothemes.com"
+msgstr ""
+
+#: inc/template-tags.php:299
+msgid "https://nasiothemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://nasiothemes.com/themes/pliska"
+msgstr ""
+
+#: inc/template-tags.php:307
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: admin/theme-intro.php:162
+msgid ""
+"If you enjoy using Pliska Theme, please leave a review for it on WordPress."
+"org. It helps us continue providing updates and support for it."
+msgstr ""
+
+#. Theme name and link to WordPress.org Support forum for the theme
+#: admin/theme-intro.php:187
+#, php-format
+msgid ""
+"If you like the free version of %1$s Theme, you will love the PRO version."
+msgstr ""
+
+#: admin/theme-intro.php:234
+msgid ""
+"Import demo content with posts, pages and images for an easier start with "
+"the theme with a single click."
+msgstr ""
+
+#: inc/template-tags.php:425
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:68
+msgid "Instagram Url"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: comments.php:76
+msgid "Leave a Comment"
+msgstr ""
+
+#: admin/theme-intro.php:159
+msgid "Leave a Review"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:250
+msgid "Left"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:21 inc/customizer-sections/layout.php:37
+#: inc/customizer-sections/layout.php:53 inc/customizer-sections/layout.php:71
+#: inc/customizer-sections/layout.php:87
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/template-tags.php:462
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:125
+msgid "Linkedin Url"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:196
+msgid "Links Hover Color"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:177
+msgid "Links Text Color"
+msgstr ""
+
+#: inc/template-functions.php:136
+msgid "Loading"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:316
+msgid ""
+"Make sure that the contrast is high enough so that the text is readable. To "
+"change the on-scroll opacity animation overlay, go to \"Header Animations\" "
+"tab"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:52
+msgid "Make the dark mode default"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:54
+msgid ""
+"Make the dark mode the default theme mode. Please note: the site visitors "
+"will still be able to switch modes, if you have enabled the above option."
+msgstr ""
+
+#: comments.php:80
+msgid "Message"
+msgstr ""
+
+#: inc/template-tags.php:201
+msgid "min read"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:120
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: inc/template-tags.php:300
+msgid "Nasio Themes"
+msgstr ""
+
+#: inc/customizer-sections/dark-mode.php:12
+msgid "Night Mode"
+msgstr ""
+
+#: admin/theme-intro.php:301
+msgid "Nonpriority"
+msgstr ""
+
+#: inc/template-header.php:65
+msgid "Not Found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: admin/theme-intro.php:235
+msgid "One Click Demo Import"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+msgid "One Comment"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by "Open Sans", sans-serif;, translate this to 'off'. Do not translate
+#. into your own language.
+#: inc/template-functions.php:442
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:315
+msgid "Overlay Opacity Density"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:5
+msgid "Page Layout"
+msgstr ""
+
+#: template-parts/content-page.php:20 template-parts/content.php:39
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:30
+msgid "Phone number"
+msgstr ""
+
+#: inc/template-tags.php:496
+msgid "Pingback: "
+msgstr ""
+
+#: inc/template-functions.php:561
+msgid "pinterest"
+msgstr ""
+
+#. Theme name and link to WordPress.org Support forum for the theme
+#: admin/theme-intro.php:110
+#, php-format
+msgid ""
+"Please check the theme documentation before using the theme. Support for "
+"%1$s Theme is provided in the official WordPress.org community support forum."
+" "
+msgstr ""
+
+#: admin/theme-intro.php:134
+msgid ""
+"Please navigate to Appearance => Customize and customize the theme to taste."
+msgstr ""
+
+#. Name of the theme
+#: admin/theme-intro.php:226 admin/welcome-notice.php:46
+#: inc/block-patterns.php:17
+msgid "Pliska"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Pliska is a beautiful, next-generation WordPress theme with powerful theme "
+"options. It is designed for creating high quality blogs, multi-author "
+"publishing platforms, portfolio and company websites. It is fully "
+"customizable, with lots of features, looks great and behaves flowlessly on "
+"any device, screen size and browser. This modern theme features ready-to-use "
+"block patterns, with which you can create your new website in minutes. The "
+"theme is optimized for speed and SEO. It features Schema.org markup and is "
+"WCAG 2.0 (Level AA) compliant. Make your site truely unique with three "
+"different page layouts, different header options, Google fonts and take "
+"advantage of all the other awesome free features such as social share for "
+"posts, author box, related posts, different menu positions and mega menu "
+"functionality. Another awesome feature is that site visitors can switch "
+"between light and dark theme mode with a single click. The theme is fully "
+"compatible with Gutenberg but also supports the good old classic editor. It "
+"also provides a seemless integration with all the popular page builders. "
+"Support for WooCommerce and popular WordPress plugins is also fully "
+"guarantied. Try it at https://try-pliska.nasiothemes.com/test-drive/"
+msgstr ""
+
+#: admin/theme-intro.php:229
+msgid "Pliska PRO"
+msgstr ""
+
+#: admin/theme-intro.php:45 admin/theme-intro.php:46
+msgid "Pliska Theme"
+msgstr ""
+
+#: admin/theme-intro.php:69
+msgid "Pliska Theme Screenshot"
+msgstr ""
+
+#: admin/theme-intro.php:152
+msgid "Pliska Theme Video Tutorial"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:47
+msgid "Post Archives"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:83
+msgid "Post Categories"
+msgstr ""
+
+#: comments.php:78
+msgid "Post Comment"
+msgstr ""
+
+#: inc/template-tags.php:115
+msgid "Post date"
+msgstr ""
+
+#: inc/template-tags.php:140
+#, php-format
+msgctxt "post date"
+msgid "Updated %s"
+msgstr ""
+
+#: inc/template-tags.php:143
+msgid "Post last updated date"
+msgstr ""
+
+#: admin/theme-intro.php:289
+msgid "Post rating System"
+msgstr ""
+
+#: inc/template-tags.php:178
+msgid "Post read time"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:12
+msgid "Post Settings"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:245
+msgid "Post tags"
+msgstr ""
+
+#: inc/template-functions.php:176
+msgid "Posts navigation"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: inc/template-tags.php:305
+msgid "Powered by"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:215
+msgid "Primary Accent Color"
+msgstr ""
+
+#: admin/theme-intro.php:309
+msgid "Priority Support"
+msgstr ""
+
+#: inc/customizer-sections/go-pro.php:97
+msgid "Pro Available"
+msgstr ""
+
+#: admin/theme-intro.php:312
+msgid "Quick and friendly support is available via email"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-functions.php:108
+#, php-format
+msgid "Read more <span class=\"screen-reader-text\">\"%1$s\"</span>"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/block-patterns.php:67
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:271
+msgid "Related post default image"
+msgstr ""
+
+#: inc/template-functions.php:646
+msgid "Related Posts"
+msgstr ""
+
+#: admin/theme-intro.php:275
+msgid ""
+"Remove theme author credits and add your own text here. Customize the colors "
+"of the footer elements directly from the theme customizer. No coding skills "
+"needed!"
+msgstr ""
+
+#: inc/template-tags.php:548
+msgid "Reply"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:155
+msgid ""
+"Resize the header image to adjust to the width of the whole screen or choose "
+"to keep its initial width."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:251
+msgid "Right"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:19 inc/customizer-sections/layout.php:35
+#: inc/customizer-sections/layout.php:51 inc/customizer-sections/layout.php:69
+#: inc/customizer-sections/layout.php:85
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/template-tags.php:367
+msgid "Search"
+msgstr ""
+
+#: searchform.php:14
+msgid "search"
+msgstr ""
+
+#: searchform.php:11 searchform.php:12
+msgid "Search Here..."
+msgstr ""
+
+#: inc/template-header.php:62
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-tags.php:205
+msgid "sec read"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:234
+msgid "Secondary Accent Color"
+msgstr ""
+
+#: inc/block-patterns.php:58
+msgid "Services Page"
+msgstr ""
+
+#: inc/template-functions.php:539
+msgid "Share this post on Facebook"
+msgstr ""
+
+#: inc/template-functions.php:572
+msgid "Share this post on Linkedin"
+msgstr ""
+
+#: inc/template-functions.php:561
+msgid "Share this post on Pinterest"
+msgstr ""
+
+#: inc/template-functions.php:550
+msgid "Share this post on Twitter"
+msgstr ""
+
+#: inc/template-functions.php:536
+msgid "Share this post on: "
+msgstr ""
+
+#: inc/customizer-sections/layout.php:65
+msgid "Shop Page"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:416
+msgid "Show an arrow that links to the main content."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:178
+msgid "Show breadcrumbs on pages"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:160
+msgid "Show breadcrumbs on posts"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:142
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:415
+msgid "Show Header Arrow"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:66
+msgid "Show modified date"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:198
+msgid "Show number of post likes for each post."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:106
+msgid "Show post author"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:235
+msgid "Show post author box"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:28
+msgid "Show post categories"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:47
+msgid "Show post date"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:197
+msgid "Show post likes"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:216
+msgid "Show post share butons"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:217
+msgid "Show post share butons on single blog posts"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:124
+msgid "Show post tags"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:254
+msgid "Show related posts"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:179
+msgid "Show simple breadcrumps on pages"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:161
+msgid "Show simple breadcrumps on single posts"
+msgstr ""
+
+#: inc/template-tags.php:348
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:29
+msgid "Show the categories, associated to the post."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:67
+msgid "Show the last updated date of the post."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:133
+msgid ""
+"Show the product image as a header image on WooCommerce single product page."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:48 inc/customizer-sections/blog.php:107
+msgid "Show the published date of the post."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:94
+msgid ""
+"Show the site header image as a fallback image when there is no featured "
+"image on single posts and pages."
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:113
+msgid "Show the site header image on post archives"
+msgstr ""
+
+#: inc/customizer-sections/blog.php:125
+msgid "Show the tags, associated to the post."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:88
+msgid "Show the time needed to read the post."
+msgstr ""
+
+#: inc/customizer-sections/blog.php:87
+msgid "Show time to read"
+msgstr ""
+
+#: functions.php:170
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:31
+msgid "Single Blog Post"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:15
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer-sections/layout.php:81
+msgid "Single Product Page"
+msgstr ""
+
+#: inc/template-functions.php:743
+msgid "Skip to Content"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:13
+msgid "Social Icons"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer-sections/colors.php:99
+msgid "Sub-menu Background Color"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:80
+msgid "Sub-menu Text Color"
+msgstr ""
+
+#: admin/theme-intro.php:297
+msgid "Support"
+msgstr ""
+
+#: admin/theme-intro.php:304
+msgid "Support is provided in the WordPress.org community forums."
+msgstr ""
+
+#: admin/welcome-notice.php:49
+#, php-format
+msgid "Thank you for choosing %1$s!"
+msgstr ""
+
+#: admin/theme-intro.php:137
+msgid ""
+"That is easy, all you need to do is upgrade to Pliska PRO and run the one-"
+"click demo import. Please check the video tutorial for more info."
+msgstr ""
+
+#: inc/customizer-sections/colors.php:62
+msgid ""
+"The menu text color when you scroll down the page. To change the menu "
+"behavior (sticky, fixed or static menu), go to \"Header Options\" section."
+msgstr ""
+
+#: admin/theme-intro.php:86
+msgid "Theme Demo"
+msgstr ""
+
+#: admin/theme-intro.php:83
+msgid "Theme Details"
+msgstr ""
+
+#: admin/theme-intro.php:90 admin/theme-intro.php:148
+msgid "Theme Video Tutorial"
+msgstr ""
+
+#: inc/customizer-sections/colors.php:23
+msgid ""
+"To change header image gradient direction, density or completely remove it, "
+"go to \"Header Options\" section."
+msgstr ""
+
+#: admin/theme-intro.php:140
+msgid ""
+"To install the Pliska Pro theme, go to Appearance => Themes => Add new and "
+"upload the zip file that you have received upon theme purchase. To activate "
+"it, hover over Pliska Pro theme from the theme list on the same page and "
+"click \"Activate\". Finally, you will be asked to enter a license key that "
+"you have received by email."
+msgstr ""
+
+#. %1$s: theme name, %2$s link
+#: admin/welcome-notice.php:53
+#, php-format
+msgid ""
+"To take advantage of everything that this theme can offer, please take a "
+"look at the <a href=\"%2$s\">Get Started with %1$s</a> page."
+msgstr ""
+
+#: header.php:53
+msgid "Toggle Navigation"
+msgstr ""
+
+#: inc/customizer-sections/header-options.php:252
+msgid "Top"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:49
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: inc/template-tags.php:438
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-functions.php:550
+msgid "twitter"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:87
+msgid "Twitter Url"
+msgstr ""
+
+#: admin/theme-intro.php:179 admin/theme-intro.php:200
+#: admin/theme-intro.php:322
+msgid "Upgrade to Pliska PRO"
+msgstr ""
+
+#: inc/customizer-sections/go-pro.php:99
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/template-functions.php:612
+msgid "View all posts by"
+msgstr ""
+
+#: inc/template-tags.php:61
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: admin/theme-intro.php:211
+msgid "View Full List of Features"
+msgstr ""
+
+#: admin/theme-intro.php:116
+msgid "View Pliska Documentation"
+msgstr ""
+
+#: inc/woocommerce.php:46
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "WordPress"
+msgstr ""
+
+#: admin/theme-intro.php:165
+msgid "Write a Review for Pliska"
+msgstr ""
+
+#: functions.php:114
+msgid "Yellow"
+msgstr ""
+
+#: admin/theme-intro.php:193
+msgid ""
+"You will be able to create an even more unique website using the additional "
+"functionalities and customization options available in the pro version."
+msgstr ""
+
+#: inc/template-tags.php:527
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:450
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer-sections/social-icons.php:106
+msgid "Youtube Url"
+msgstr ""

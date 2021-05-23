@@ -1,0 +1,167 @@
+//Buttons transition
+.wp-block-button__link {
+  position: relative;
+  &:before {
+    opacity: 0.65;
+    @include header-buttons-animation;
+  }
+  &:hover::before {
+    opacity: 0;
+    transform: scale(1.2, 1.5);
+  }
+}
+
+.wp-block-button__link.has-green-color::before,
+.wp-block-button__link.has-yellow-color::before {
+  border: 2px solid transparent;
+  transition: 0.5s all;
+}
+
+.wp-block-button__link.has-green-color:hover::before,
+.wp-block-button__link.has-yellow-color:hover::before {
+  border: 2px solid;
+}
+
+.section-fullwidth {
+  .wp-block-button__link {
+    @include right-arrow-animation;
+  }
+}
+
+.section-fullwidth-2,
+.about-page,
+.services-page {
+  h2 {
+    @include yellow-underline;
+    line-height: 32px;
+  }
+  img {
+    top: 0;
+    position: relative;
+    transition: 0.5s top ease-out, 0.3s opacity;
+    &:hover {
+      top: -6px;
+      opacity: 0.85;
+    }
+  }
+}
+
+.about-page .wp-block-columns,
+.services-page .wp-block-columns,
+.section-fullwidth-2 .wp-block-columns {
+  flex-direction: column;
+}
+
+.services-page .wp-block-column,
+.about-page .wp-block-column,
+.section-fullwidth-2 .wp-block-column {
+  padding: 0 1em;
+}
+
+// Latest Posts
+.section-latest-posts {
+  padding: 2em 0;
+}
+
+.section-latest-posts hr,
+.section-partners hr,
+.section-testimonials hr {
+  width: 100px;
+  height: 3px;
+}
+
+.section-latest-posts {
+  li {
+    transition: 0.45s ease-in-out;
+    opacity: 0.6;
+  }
+  &.animated {
+    li {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 40em) {
+  .section-latest-posts {
+    li:nth-child(3n + 1) {
+      transform: translateX(-2em);
+    }
+    li:nth-child(3n + 2) {
+      transform: translateY(-2em);
+      transition-delay: 0.15s;
+    }
+    li:nth-child(3n + 3) {
+      transform: translateX(2em);
+      transition-delay: 0.3s;
+    }
+    &.animated {
+      li {
+        transform: translate(0, 0);
+      }
+    }
+  }
+
+  //latest posts
+  .wp-block-latest-posts__featured-image {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0;
+    width: 100%;
+    a {
+      width: 100%;
+    }
+    img {
+      height: 185px;
+      object-fit: cover;
+      width: 100%;
+      transition: 0.4s ease all;
+      &:hover {
+        @include zoom;
+      }
+    }
+  }
+
+  .wp-block-latest-posts__featured-image:hover,
+  .wp-block-latest-posts__featured-image:focus {
+    opacity: 0.85;
+  }
+}
+
+// latest posts fix
+.section-partners .wp-block-column,
+.section-latest-posts li,
+.section-latest-posts .wp-block-latest-posts__featured-image {
+  text-align: center;
+}
+
+@media (min-width: 65em) {
+  .about-page .wp-block-columns,
+  .services-page .wp-block-columns,
+  .section-fullwidth-2 .wp-block-columns {
+    flex-direction: row;
+  }
+  .services-page .wp-block-columns:nth-child(1) {
+    padding-top: 2em;
+  }
+  .services-page .wp-block-columns:last-child {
+    padding-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 80em) {
+  // Fallback for IE11
+  .wp-block-latest-posts.columns-3 li {
+    width: 30%;
+  }
+}
+
+@media (min-width: 85em) {
+  .no-sidebar {
+    .services-page .wp-block-column,
+    .about-page .wp-block-column,
+    .section-fullwidth-2 .wp-block-column {
+      padding: 0;
+    }
+  }
+}

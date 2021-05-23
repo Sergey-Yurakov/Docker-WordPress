@@ -1,0 +1,217 @@
+/*
+Theme Name: Foodup
+Theme URI: https://themeansar.com/free-themes/foodup/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Foodup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Foodup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Foodup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/
+Version: 0.6
+Requires PHP: 5.4
+Tested up to: 5.4.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newsup
+Text Domain: foodup
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Foodup WordPress Theme is child theme of Newsup, Copyright 2020 Themeansar
+Foodup is distributed under the terms of the GNU General Public License v3
+
+Foodup is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+span.time {
+    margin-left: 5px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.mg-headwidget.center .heacent {
+    margin-top: unset !important;
+}
+.mg-headwidget.center .logo-center, .mg-headwidget.center .navbar-header, .mg-headwidget.center .site-branding-text  {
+    float: none;
+    text-align: center;
+}
+
+.mg-headwidget.center .navbar-brand {
+    float: none;
+    display: inline-block;
+    margin: 8px auto;
+    font-weight: bold;
+}
+.mg-headwidget.center .heacent {
+    margin-top: 40px;
+}
+.navbar-wp .dropdown-menu.searchinner .btn {
+    border: medium none;
+    border-radius: 0 4px 4px 0;
+    height: 40px;
+    line-height: 25px;
+    padding: 5px 15px;
+}
+.mg-search-box .dropdown-toggle::after {
+	display: none;
+}
+.m-header {
+	display: none;
+}
+.desk-header {
+	display: flex;
+}
+.mobilehomebtn {
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
+.mg-blog-post.md{
+	width: 49.8%;
+	float: left;
+	height: 236px;
+}
+.mg-blog-post.md .bottom h4 {
+    font-size: 26px;
+}
+.mb1px {
+	margin-bottom: 1px;
+}
+.trending-area .title {
+	border-bottom: 2px solid #eee;
+	width: 100%;
+	display: flex;
+    align-items: center;
+    height: 41px;
+}
+.trending-area .title h4 {
+	font-size: 18px;
+	line-height: 1;
+	margin: 0;
+	padding: 0 10px;
+	position: relative;
+}
+.trending-area .title h4::before {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    height: 2px;
+    content: "";
+}
+.trending-area .small-list-post img {
+    border-radius: 50%;
+}
+.trending-area .img-small-post {
+    position: relative;
+}
+.trending-area.mg-posts-sec-inner .small-list-post {
+    counter-reset: tr_post;
+}
+.trending-area .img-small-post:before {
+    counter-increment: tr_post;
+  	content:  counter(tr_post);
+    position: absolute;
+    margin: 0 auto;
+    transform: translateY(0);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 600;
+}
+.trending-area.mg-posts-sec-inner .small-list-post li {
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 240px) {
+.mg-headwidget .navbar-wp .navbar-nav > li> a {
+    position: relative;
+    border-bottom: 1px solid rgba(225,225,225,0.4);
+}
+}
+@media (max-width: 991px) {
+	.navbar-wp .navbar-nav > li> a i {
+    	display: none;
+	}	
+}
+@media (min-width: 1200px) {
+.mg-blog-post.md .bottom h4 {
+    max-height: 65px;
+    overflow: hidden;
+}
+}
+@media (max-width: 991.98px) {
+#menu-primary li.active.home {
+	display: none;
+}
+.m-header {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.desk-header {
+	display: none;
+}
+}
+
+.back-img {
+    background-color: #333;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.promobox {
+    height: 250px;
+}
+.promobox .link-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mg-blog-post.lg.md
+{
+    width: 100%;
+    height: 237px;
+}
+.btn {
+    padding: 10px 35px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
+    border-width: 2px;
+    border-style: solid;
+}
+.btn-theme {
+    background: #1151d3;
+    color: #fff;
+    border-color: #1151d3;
+}
+
+.mg-blog-post.lg.md {
+    width: 100%;
+    height: 237px;
+}
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mg-blog-post.lg a, .mg-posts-sec-post a, .mg-blog-post-box a {
+    text-decoration: underline;
+}

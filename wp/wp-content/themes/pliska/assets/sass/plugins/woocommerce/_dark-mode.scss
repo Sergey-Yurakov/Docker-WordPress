@@ -1,0 +1,13 @@
+.dark-mode {
+    &.woocommerce, .wc-block-grid {
+        .is-discounted {
+            background-color:#32373c;
+            color: #fbc02d
+        }
+        ins span bdi {
+            background-color:#32373c;
+            color: #fbc02d
+        }
+    
+    }
+}

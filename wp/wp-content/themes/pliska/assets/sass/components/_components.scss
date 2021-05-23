@@ -1,0 +1,57 @@
+// Loader
+@import "loader";
+
+// Navigation
+@import "navigation/navigation";
+//Pagination
+@import "pagination/pagination";
+
+// Posts and pages
+@import "content/posts-and-pages";
+
+// Header
+@import "content/header";
+
+// Footer
+@import "content/footer";
+
+// Header Buttons
+@import "header-buttons";
+
+// Buttons
+@import "buttons";
+
+// Search
+@import 'search/search';
+
+//Single
+@import 'content/single';
+
+// Wrapper
+@import "content/wrapper";
+
+// Comments
+@import "comments/comments";
+
+// Widgets
+@import "widgets/widgets";
+
+// Media
+@import "media/media";
+
+// Captions
+@import "media/captions";
+
+// Galleries
+@import "media/galleries";
+
+// Social icons
+@import "social-icons";
+
+// Gutenberg Blocks Custom styles
+@import "blocks/blocks";
+
+// Dark mode
+
+@import "dark-mode/dark-mode-button";
+@import "dark-mode/dark-mode";

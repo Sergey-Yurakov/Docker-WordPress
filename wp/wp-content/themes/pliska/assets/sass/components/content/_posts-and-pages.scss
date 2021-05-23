@@ -1,0 +1,312 @@
+.sticky {
+  display: block;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+.entry-content {
+  &:after {
+    @include clearfix;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+article::after {
+  @include clearfix;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+.entry-title {
+  word-wrap: break-word;
+  margin-bottom: .45em
+}
+
+//Entry Meta Header
+.pretitle-meta *,
+.after-title-meta * {
+  color: #f7f7f7;
+  &:hover {
+    color: #f7f7f7;
+  }
+}
+
+.pretitle-meta .author-container {
+  margin: 2em auto;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.author-avatar {
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+
+.author-avatar .avatar {
+  width: 4em;
+  height: 4em;
+  border-radius: 100%;
+  margin-bottom: 8px;
+  border: 2px solid #bbb;
+  border-radius: 100px;
+}
+
+//Entry Meta Post Loop
+
+.byline {
+  em {
+    font-style: normal;
+  }
+}
+
+.top-meta.no-image {
+  padding-bottom: 0.5em;
+}
+
+.entry-meta,
+.entry-footer {
+  @include row-wrap-center;
+
+  span {
+    margin-right: 0.5em;
+  }
+
+  .byline {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+
+    .author-avatar {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.user-likes-button {
+  display: inline-block;
+  position: relative;
+  margin-right: 1em;
+}
+
+.like-counter {
+  position: absolute;
+  bottom: 3px;
+}
+
+.tags-links {
+  display: flex;
+  padding-right: 1em;
+  flex-wrap: wrap;
+
+  svg {
+    top: 6px;
+  }
+}
+
+.entry-footer {
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.svg-icon {
+  margin-right: 3px;
+  position: relative;
+  top: 3px;
+}
+
+// Post loop
+
+// Categories
+.top-meta {
+  .cat-links {
+    a {
+      border-radius: 3px;
+      transition: 0.5s all;
+      padding: 0.1em 0.5rem;
+      position: relative;
+      display: inline-block;
+      color: #333;
+    }
+
+    a:nth-of-type(3n+1) {
+      &:hover {
+        // background: $color__link;
+        color: #fff;
+      }
+    }
+  }
+
+  .cat-links {
+    position: absolute;
+    left: 2%;
+    z-index: 1;
+
+    a {
+      margin-bottom: 4px;
+      transition: 0.5s all;
+    }
+
+    a:nth-of-type(3n +2) {
+      background: #ff7f7f;
+
+      &:hover {
+        background: #ff3333;
+      }
+    }
+
+    a:nth-of-type(3n) {
+      //background: #00cccc;
+      background: #56cdc1;
+      color: #fff;
+
+      &:hover {
+        background: $color__link;
+      }
+    }
+  }
+}
+
+.no-image {
+  .cat-links {
+    position: static;
+  }
+}
+
+.has-header-image.blog, .has-header-image.archive, .has-header-image.search{
+  .hentry{
+    transition: all .6s ease-in-out;
+    opacity: .25;
+    transform: translate(0px, 3em);
+  }
+}
+
+.blog,
+.archive,
+.search {
+  .hentry {
+    position: relative;
+    margin: 3em 0;
+    padding: 2em 2em 1.25em;
+    @include box-shadow;
+
+    &::after {
+      @include clearfix;
+    }
+    .post-thumbnail {
+      display: inline-block;
+    }
+
+    .post-thumbnail:hover img {
+      @include zoom;
+    }
+  }
+
+  .feather-heart {
+    transform: scale(.75);
+  }
+}
+
+.img-wrapper {
+  position: relative;
+
+  figure {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0;
+    width: 100%;
+  }
+
+  img {
+    transition: all .8s ease-in-out;
+  }
+}
+
+.edit-link {
+  padding-left: 0.5em;
+}
+
+.text-wrapper {
+
+  .entry-title a {
+    @include post-link-animation;
+  }
+
+  h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .entry-content {
+    margin-top: 0.65em;
+  }
+
+  .entry-content p {
+    margin-top: 0;
+  }
+
+  .dots {
+    padding-right: 5px;
+  }
+
+  .more-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    @include right-arrow-animation;
+    font-size: 14px;
+  }
+}
+
+.has-header-image .hentry {
+  &.animated {
+    @include post-loop-animation;
+  }
+}
+
+// desktop styles
+@media (min-width: 40em) {
+  .img-wrapper {
+    float: left;
+    width: 42.5%;
+  }
+
+  .text-wrapper {
+    float: left;
+    width: 57.5%;
+    padding-left: 2em;
+
+    &.no-image {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 100em) {
+  .entry-title {
+    margin-bottom: .65em
+  }
+}

@@ -1,0 +1,19 @@
+.pliska-newsletter {
+    padding: 50px 20px;
+    background: #f3f3f3;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 3em;
+}
+
+.newsletter-form {
+    margin: auto;
+}
+
+@media (min-width:40em){
+    .pliska-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}

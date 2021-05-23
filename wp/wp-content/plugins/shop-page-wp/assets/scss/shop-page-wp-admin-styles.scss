@@ -1,0 +1,111 @@
+.spwp-button-group {
+  //padding: 5px 0 20px;
+  padding: 5px 0;
+  display: flex;
+  a {
+    text-decoration: none;
+    font-weight: bold !important;
+    background-color: #fbfbfb;
+    border: 1px solid #dfdfdf;
+    color: #444;
+    padding: 8px 15px;
+    margin: 0 !important;
+    &:first-child {
+      border-radius: 5px 0 0 5px;
+      border-right: none;
+    }
+    &:last-child {
+      border-radius: 0 5px 5px 0;
+    }
+    &:hover {
+      background-color: #efefef;
+    }
+    &.current {
+      background-color: #0085ba;
+      border-color: #0085ba;
+      color: #fff;
+      &:hover {
+        cursor: default;
+      }
+    }
+    &:active,
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// h2.spwp-tab-wrapper {
+//   margin: 0;
+//   padding: 15px 0 0 !important;
+//   a {
+//     padding: 12px 15px 10px;
+//     border: 1px solid #dfdfdf;
+//     background-color: #eee;
+//     margin-bottom: -1px;
+//     color: #333;
+//     font-weight: bold;
+//     text-decoration: none;
+//     display: inline-block;
+//     &:hover {
+//       background-color: #fcfcfc;
+//     }
+//     &:active,
+//     &:focus {
+//       box-shadow: none;
+//     }
+//     &.current {
+//       background-color: #fbfbfb;
+//       border-bottom-color: #fbfbfb;
+//       &:hover {
+//         cursor: default;
+//       }
+//     }
+//   }
+// }
+.spwp-tab-container {
+  background-color: #fbfbfb;
+  padding: 15px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  &.margin-top {
+    margin-top: 15px;
+  }
+}
+
+.spwp-admin-item {
+  &.tab-item {
+    display: none;
+    &.current {
+      display: block;
+    }
+  }
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  input {
+    margin-top: 10px;
+    width: 100%;
+    @media (min-width: 1042px) {
+      width: 500px;
+    }
+  }
+  textarea {
+    vertical-align: top;
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    @media (min-width: 1042px) {
+      width: 500px;
+    }
+  }
+  .preview-image {
+    padding: 12px 20px;
+    display: inline-block;
+    img {
+      max-height: 196px;
+    }
+  }
+}

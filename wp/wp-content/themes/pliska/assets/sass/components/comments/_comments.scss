@@ -1,0 +1,99 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-area {
+	padding-top: 2em
+}
+
+.comment-body {
+    background: #f8f9fa;
+    padding: 2em 1em;
+}
+
+.comment-form, .comment-body{
+    a {
+        color: #015759;
+    }
+}
+.comment-list {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.comment-list li {
+    padding: 0;
+    margin: 0 0 30px;
+    float: left;
+    width: 100%;
+    clear: both;
+    list-style: none;
+}
+
+.comment-meta {
+	padding-bottom: 1em;
+}
+.comment-content {
+	padding-bottom: 1em;
+}
+
+.comment-list li .comment-body .reply {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.comment-reply-link {
+    background-color: #e3e3e3;
+    padding: 5px 10px;
+}
+
+#commentform {
+    background-color: #f8f9fa;
+    padding: 3rem;
+}
+
+.comment-respond .btn-comment {
+    color: #fff;
+}
+
+.comments-title, .comment-reply-title {
+	@include yellow-underline;
+    display: inline-block;
+}
+
+.comment-content {
+    &::after{
+        @include clearfix;      
+    }
+}
+
+.comment-avatar {
+    float: left;
+    width: 16%;
+    position: relative;
+    img {
+        border-radius: 50%;
+    }
+    figure {
+        position: relative;
+        display: inline-block;
+        @include author-border
+    }
+}
+.comment-text {
+    float: right;
+    width: 80%
+}
+
+@media (min-width: 60em){
+    .comment-body {
+        padding: 2em 3em;
+    }
+    .comment-text {
+        width: 84%
+    }
+}

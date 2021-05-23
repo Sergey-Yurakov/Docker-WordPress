@@ -1,0 +1,10 @@
+.no-sidebar {
+	.wrapper {
+		max-width: 960px;
+	}
+	@media (min-width: 60em) {
+		.site-main {
+			max-width: 100% !important;
+		}
+	}
+}

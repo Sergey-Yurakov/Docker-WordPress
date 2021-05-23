@@ -1,0 +1,168 @@
+# Copyright (C) 2017 Shop_Page_WP
+# This file is distributed under the same license as the Shop_Page_WP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shop_Page_WP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-shop-page-wp-admin-settings.php:35
+msgid "Button Text (max 14 characters)"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:43
+msgid "Choose Default Styles"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:51
+msgid "Default Number of Columns"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:59
+msgid "Image Width"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:67
+msgid "Image Height"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:75
+msgid "Image Crop"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:100
+msgid "You must"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:102, includes/class-shop-page-wp-admin-settings.php:117, includes/class-shop-page-wp-instructions.php:64
+msgid "regenerate thumbnails"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:102
+msgid "for the updated image size to take effect."
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:108
+msgid "Default Settings"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:112
+msgid "Custom Image Size Settings (Optional)"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:114
+msgid "Set max image width and height in pixels (Default is 300px x 300px with crop)"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:115
+msgid "After changing image size you must"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:135
+msgid "Grid Spacing Only"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:138
+msgid "No Styles"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:153, includes/class-shop-page-wp-widget.php:72
+msgid "1 Column"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:156, includes/class-shop-page-wp-widget.php:75
+msgid "2 Column"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:159, includes/class-shop-page-wp-widget.php:78
+msgid "3 Column"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:162, includes/class-shop-page-wp-widget.php:81
+msgid "4 Column"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:185
+msgid "Crop Image"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin-settings.php:188
+msgid "Don't Crop Image"
+msgstr ""
+
+#: includes/class-shop-page-wp-admin.php:47, includes/class-shop-page-wp-instructions.php:41
+msgstr ""
+
+#: includes/class-shop-page-wp-grid.php:20
+msgid "Buy Now"
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:44
+msgid "Shortcode Usage"
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:48
+msgid "Default shortcode. This will output a grid with every product you've added."
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:52
+msgid "Show only products from one category. You may use either the category slug or the category name."
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:56
+msgid "Show products from multiple categories (separated by 'pipe' symbol). You may use either the category slug or the category name."
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:60
+msgid "Specify grid size (will override default settings). Options are 1, 2, 3 or 4."
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:62
+msgid "Changing Image Sizes"
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:64
+msgid "This plugin sets a custom image size of 300 x 300 pixels. After installing this plugin (or after changing the image size in settings) you must"
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:64
+msgid "to create appropriately sized thumbnails for each of your product images. This will not be necessary for new images you upload while the plugin is installed and active."
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:68
+msgid "Use in Widgets"
+msgstr ""
+
+#: includes/class-shop-page-wp-instructions.php:70
+msgid "To add products to a widget area just drag the Shop Page WP widget into a Widget Area. You can then set the number of columns and categories (separated by a pipe | symbol), and optionally add a title for the widget section."
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:14
+msgid "Shop Page WP"
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:15
+msgid "Output Shop Page WP responsive product grid."
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:52, includes/class-shop-page-wp-widget.php:56
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:60
+msgid "Title:"
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:67
+msgid "Columns:"
+msgstr ""
+
+#: includes/class-shop-page-wp-widget.php:87
+msgid "Categories (Separate multiple by pipe | symbol)"
+msgstr ""

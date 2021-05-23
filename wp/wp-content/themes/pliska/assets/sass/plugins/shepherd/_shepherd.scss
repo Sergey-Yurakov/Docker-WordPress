@@ -1,0 +1,27 @@
+.step-admin-bar{
+    top: 10px !important;
+}
+.shepherd-content {
+    position: relative;
+}
+.shepherd-button {
+    background: #0b8276;
+    color: #fff;
+    &:not(:disabled):hover {
+        background: #0b8276;
+        color: #fff;
+    }
+}
+.shepherd-button-close {
+    position: absolute;
+    background: #f7f7f7;
+    top: 0;
+    right: 0;
+    padding: 0 8px 4px;
+    color: #333;
+    font-size: 18px;
+}
+
+.shepherd-text {
+    padding: .75em 1.25em
+}

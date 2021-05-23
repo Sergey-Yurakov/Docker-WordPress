@@ -1,0 +1,243 @@
+// Homepage Sections
+
+// Call to action
+.section-right-image,
+.section-left-image,
+.section-call-to-action {
+  padding: 2em 0;
+  h2 {
+    @include yellow-underline;
+    line-height: 32px;
+  }
+}
+
+.section-right-image .wp-block-media-text {
+  &__content {
+    /*rtl:ignore*/
+    padding-left: 0;
+  }
+}
+
+.entry-content .wp-block-media-text {
+  img {
+    position: relative;
+    top: 0;
+    transition: 0.4s;
+    &:hover {
+      top: -6px;
+      opacity: 0.9;
+    }
+  }
+}
+
+// Portfolio
+
+.portfolio-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 1.5s ease-in;
+}
+
+.section-sportfolio .wp-block-column:hover .portfolio-content {
+  max-height: 300px;
+}
+
+.section-sportfolio {
+  padding: 2em 0 0;
+  .wp-block-cover::before {
+    transition: 1s;
+  }
+  .wp-block-column .wp-block-cover:hover::before {
+    background: #0f8b8d;
+    opacity: 0.65;
+  }
+  .wp-block-button__link {
+    @include right-arrow-animation;
+  }
+}
+
+// Fix for IE11 background color inheritance issue
+_:-ms-fullscreen,
+:root {
+  .section-sportfolio {
+    .wp-block-cover::before {
+      background: #000;
+    }
+  }
+}
+
+// Testimonials
+
+.section-testimonials {
+  padding-bottom: 2em;
+  figure {
+    display: block;
+    position: relative;
+    @include testimonial-border;
+    margin-bottom: 3em;
+  }
+  figcaption {
+    position: absolute;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.wp-block-image figcaption {
+  font-size: 0.75em;
+}
+
+// Animations
+.section-right-image {
+  img {
+    transform: translateY(20px);
+    opacity: 0.6;
+    transition: 0.6s all 0.1s;
+  }
+  &.animated {
+    img {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .wp-block-media-text__content {
+    transform: translateY(-20px);
+    transition: 0.8s all 0.2s;
+  }
+  &.animated {
+    .wp-block-media-text__content {
+      transform: translateY(0px);
+    }
+  }
+}
+
+.section-left-image {
+  img {
+    transform: translateY(-20px);
+    transition: 0.8s all 0.1s;
+    opacity: 0.6;
+  }
+  &.animated {
+    img {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .wp-block-media-text__content {
+    transform: translateY(20px);
+    transition: 0.8s all 0.2s;
+  }
+  &.animated {
+    .wp-block-media-text__content {
+      transform: translateY(0px);
+    }
+  }
+}
+
+.section-sportfolio {
+  .wp-block-column {
+    transition: 0.45s ease-in-out;
+    opacity: 0.6;
+  }
+}
+
+.section-sportfolio.animated {
+  .wp-block-column {
+    opacity: 1;
+  }
+}
+
+.section-stats-counter {
+  padding-bottom: 2em;
+}
+
+// Text animation
+.section-testimonials,
+.section-call-to-action,
+.section-fullwidth .wp-block-cover__inner-container{
+  transform: perspective(2000px) rotateX(18deg);
+}
+
+.section-testimonials.animated,
+.section-call-to-action.animated,
+.section-fullwidth.animated .wp-block-cover__inner-container{
+  animation-duration: 1500ms;
+  opacity: 0.6;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transform: perspective(2000px) rotateX(18deg);
+  animation-name: pliska_text;
+}
+
+// Scale animation
+.section-partners, .pliska-newsletter {
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.section-partners.animated, 
+.animated .pliska-newsletter {
+  animation-duration: 1.25s;
+  opacity: 0.75;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: pliska_zoom_in;
+}
+
+@keyframes pliska_zoom_in {
+  0% {
+    opacity: 0.75;
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pliska_zoom_in_header {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); 
+  }
+}
+
+@keyframes pliska_text {
+  0% {
+    opacity: 0.6;
+    transform: perspective(2000px) rotateX(18deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(0) rotateX(0);
+  }
+}
+
+@media (min-width:40em){
+  .section-sportfolio {
+
+    .wp-block-column:nth-child(1) {
+      transform: translateX(-2em);
+    }
+  
+    .wp-block-column:nth-child(2) {
+      transform: translateY(-2em);
+      transition-delay: 0.15s;
+    }
+  
+    .wp-block-column:nth-child(3) {
+      transform: translateX(2em);
+      transition-delay: 0.3s;
+    }
+  }
+  
+  .section-sportfolio.animated {
+    .wp-block-column {
+      transform: translate(0, 0);
+    }
+  }
+}

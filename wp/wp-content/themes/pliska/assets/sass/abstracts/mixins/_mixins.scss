@@ -1,0 +1,241 @@
+// Center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin center-table {
+  display: table;
+  margin: 0 auto;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+  width: map-get($columns, $numberColumns) -
+    (($columns__margin * ($numberColumns - 1)) / $numberColumns);
+}
+
+@mixin row {
+  display: flex;
+}
+@mixin row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+@mixin row-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@mixin col {
+  display: flex;
+  flex-flow: column;
+}
+// Justify content row
+@mixin row-justify-center {
+  @include row;
+  justify-content: center;
+}
+@mixin row-justify-around {
+  @include row;
+  justify-content: space-around;
+}
+@mixin row-justify-between {
+  @include row;
+  justify-content: space-between;
+}
+// align row
+@mixin row-align-center {
+  @include row;
+  align-items: center;
+}
+
+//clarfix
+@mixin clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+//animations
+
+// right arrow hover animation
+
+@mixin right-arrow-animation {
+  &:after {
+    transition: .3s ease-in-out;
+    opacity: 0;
+    content: '\003E';
+  }
+  &:hover::after {  
+    opacity: .75;
+    padding-left: 5px
+  }
+}
+
+// header buttons animation
+
+@mixin header-buttons-animation {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  opacity: 0.85;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+@mixin post-link {
+  background: linear-gradient(to right, #fbc02d 0%, #fbc02d 100%);
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-size: 0px 3px;
+  background-repeat: no-repeat;
+  background-position: left 87%;
+  display: inline;
+  transition: 0.4s;
+}
+
+@mixin post-link-animation {
+  // background: linear-gradient(to right, #fbc02d 0%, #fbc02d 100%);
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-size: 0px 3px;
+  background-repeat: no-repeat;
+  background-position: left 87%;
+  display: inline;
+  transition: 0.8s ease-in-out;
+  &:hover {
+    background-size: 100% 5px;
+  }
+}
+
+@mixin post-loop-animation() {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@mixin arrow-animation {
+  @keyframes sdb05 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+      opacity: 0;
+    }
+  }
+}
+
+@mixin yellow-underline {
+  background-size: 100% 25%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  display: inline;
+  line-height: 24px;
+}
+
+@mixin grey-underline {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(218, 165, 3, 0.4) 0%,
+    rgba(218, 165, 3, 0.6) 100%
+  );
+  background-size: 100% 22.5%;
+  background-position: 0 95%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 22px;
+}
+
+@mixin img-border($width: 2px) {
+  &:before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    bottom: 32px;
+    left: 5px;
+    border: $width solid #fff;
+    border-radius: 5px;
+    z-index: 1;
+  }
+}
+
+@mixin testimonial-border($width: 2px) {
+  &:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 8px;
+    left: 3px;
+    border: $width solid #fff;
+    border-radius: 100%;
+    z-index: 1;
+  }
+}
+
+@mixin author-border {
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    bottom: 8px;
+    left: 1px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+  }
+}
+
+@mixin box-shadow {
+  box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.09);
+  transition: box-shadow 0.5s ease-in-out;
+  &:hover {
+    /* autoprefixer: off */
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.16);
+  }
+}
+
+@mixin button {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 1;
+  padding: 0.6em 1em;
+}
+
+@mixin ov-hidden {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 0;
+}
+
+@mixin zoom {
+  transform: translate( 0%, 0%) scale3d(1.1, 1.1, 1.1);
+  opacity: 0.75;
+}
+
+@mixin social-icon {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  border-radius: 50%;
+}

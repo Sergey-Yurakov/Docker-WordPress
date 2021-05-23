@@ -1,0 +1,127 @@
+/*
+Theme Name: pliska
+WooCommerce styles override
+*/
+
+// WooCommerce color variables
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3d9cd2;
+
+// Import variables and mixins
+@import "abstracts/abstracts";
+
+// Shop tables
+@import "plugins/woocommerce/tables";
+
+// Products
+@import "plugins/woocommerce/products";
+
+// Single product
+@import "plugins/woocommerce/single-product";
+
+// Cart
+ @import "plugins/woocommerce/cart";
+
+// Checkout
+@import "plugins/woocommerce/checkout";
+
+// General WooCommerce components
+@import "plugins/woocommerce/components";
+
+// WooCommerce widgets
+@import "plugins/woocommerce/widgets";
+
+// Dark Mode
+@import "plugins/woocommerce/dark-mode";
+
+//Blocks
+@import "plugins/woocommerce/blocks";
+
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	text-align: center;
+}
+
+.woocommerce .products .star-rating {
+	margin: 0 auto .5em;
+	text-align: center;
+}
+
+.woocommerce ul.products li.product .price {
+	font-size: 1em;
+}
+
+.woocommerce ul.products li.product .button {
+	margin-top: .5em;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+	font-weight: 400;
+}
+
+.woocommerce div.product .product_title {
+	font-weight: 300;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+	font-weight: 300;
+	font-size: 1.618em;
+}
+
+.woocommerce div.product form.cart .variations td.label {
+	display: inline-block;
+	padding: 1rem 0;
+	font-size: 0.8em;
+	line-height: 1.8;
+	text-decoration: underline;
+	background: transparent;
+	color: inherit;
+}
+
+.woocommerce div.product form.cart .variations td.value {
+	background: transparent;
+}
+
+.woocommerce div.product form.cart {
+	margin-top: 2em;
+}
+
+.woocommerce div.product p.price ins,
+.woocommerce div.product span.price ins,
+.woocommerce ul.products li.product .price ins {
+	font-weight: 400;
+}
+
+.add_to_cart_button:not(.product_type_variable)::before,
+.single-product div.product form.cart .button::before {
+    font-family: WooCommerce;
+	content: '\e01d';
+	position: relative;
+	top: 0;
+	display: inline-block;
+	margin-right: 12px;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+}
+
+input#submit.loading,
+.woocommerce a.button.loading,
+.woocommerce button.button.loading,
+.woocommerce input.button.loading {
+	opacity: 1;
+}
+
+// Woocommerce Archive Pages
+@media (max-width: 480px) {
+	.woocommerce ul.products[class*="columns-"] li.product,
+	.woocommerce-page ul.products[class*="columns-"] li.product {
+		width: 100%;
+		float: none;
+	}
+}

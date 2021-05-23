@@ -1,0 +1,207 @@
+.dark-mode {
+  color: #d3d3d3;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #f7f7f7;
+  }
+  .skip-link:focus {
+    color: $color__text-main;
+  }
+  //menu
+  .fixed-header .menu-toggle .burger, .fixed-header .burger::before, .fixed-header .burger::after {
+    border-bottom: 2px solid #f7f7f7;
+  }
+  .menu-toggle .burger, .menu-toggle .burger::before, .menu-toggle .burger::after {
+    border-bottom: 2px solid #f7f7f7;
+  }
+  .main-navigation-container.fixed-header {
+    border-bottom: 2px solid #2f2f2f;
+  }
+  .main-navigation-container.fixed-header * {
+    color: #f7f7f7;
+    fill: #f7f7f7;
+  }
+  .main-navigation-container a:hover,
+  .main-navigation-container a:focus {
+    color: #f7f7f7;
+  }
+  .fixed-header .dark-mode-widget,
+  .static-header .dark-mode-widget {
+    &:focus {
+      outline: thin dotted #f7f7f7;
+    }
+  }
+
+  &.static-header .main-navigation-container{
+    background-color: transparent;
+  }
+
+  &.static-header .search-item .search-icon svg {
+    fill: #fff;
+  }
+
+  &.no-header-image, &.static-header {
+    .site-menu a, .site-title a, .site-description {
+      color: #fff;
+    }
+    .ionicon-search {
+      fill: #fff;
+    }
+  }
+
+  // headings hover underline animation
+  .text-wrapper .entry-title a {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(218, 165, 3, 0.4) 0%,
+      rgba(218, 165, 3, 0.6) 100%
+    );
+  }
+  // Widgets underline
+  .widget-area h2,
+  .comments-title,
+  .comment-reply-title,
+  .related-posts-wrapper h2 {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(218, 165, 3, 0.4) 0%,
+      rgba(218, 165, 3, 0.6) 100%
+    );
+  }
+  // post loop description
+  .text-wrapper .entry-content {
+    margin-top: 1.5em;
+    p {
+      margin-bottom: 0.75em;
+    }
+  }
+  .entry-title a,
+  .entry-title a:hover,
+  .entry-title a:focus {
+    color: #f7f7f7;
+  }
+  //meta data
+  .entry-meta a,
+  .entry-footer a {
+    color: #d3d3d3;
+  }
+  .entry-footer {
+    border-top: none;
+  }
+  .cat-links a:focus {
+    color: $color__text-main;
+    outline: thin dotted #fff;
+    outline-offset: 2px;
+  }
+  //header meta
+  .pretitle-meta a {
+    color: #d3d3d3;
+  }
+  //meta icons
+  .hentry .feather-clock,
+  .hentry .feather-comment {
+    stroke: #d3d3d3;
+  }
+  .hentry .tag-icon {
+    fill: #d3d3d3;
+  }
+  //Widget area
+  .widget-area a {
+    color: #d3d3d3;
+  }
+  #wrapper {
+    border-bottom: 2px solid #2f2f2f;
+  }
+  //pagination
+  .navigation.pagination {
+    padding-bottom: 1.5em;
+  }
+
+  // blocks 
+  .services-page {
+    background-color: transparent !important;
+  }
+  .section-partners {
+    border-top: 2px solid #2f2f2f;
+  }
+  .pliska-newsletter {
+    background: transparent;
+    border-top: 2px solid #2f2f2f;
+    border-bottom: 2px solid #2f2f2f;
+  }
+  .wp-block-latest-posts__post-author,
+  .wp-block-latest-posts__post-date {
+    color: #999;
+  }
+  // single page
+  .about-author {
+    /* autoprefixer: off */
+    box-shadow: none;
+    border-bottom: 2px solid #2f2f2f; //#3b3333;
+    padding-bottom: 3em;
+    .read-more a {
+      color: #f7f7f7;
+    }
+  }
+  &.single {
+    .entry-footer {
+      border-bottom: 2px solid #2f2f2f;
+      padding-bottom: 2em;
+    }
+  }
+  //comments
+  .comment-body {
+    padding-left: 0;
+    border-top: 2px solid #2f2f2f;
+    border-bottom: 2px solid #2f2f2f;
+  }
+  #commentform {
+    padding-left: 0;
+  }
+  .comment-reply-link {
+    background: transparent;
+    border: 1px solid #d3d3d3;
+  }
+  //pagination
+  .navigation .page-numbers {
+    background: transparent;
+    border: 1px solid #d3d3d3;
+  }
+  //widgets
+  .tagcloud a:hover {
+    color: #000;
+  }
+  //tables
+  .site-main thead,
+  .site-main tr:nth-child(2n) td,
+  .site-main tr:nth-child(2n) th {
+    background-color: transparent;
+  }
+  //wp calendar block
+  .wp-block-calendar {
+    table th {
+      background-color: transparent;
+    }
+    table tbody,
+    table caption {
+      color: #999;
+    }
+  }
+  //html formatting page
+  ins {
+    background: #32373c;
+  }
+}
+
+.dark-mode.blog .hentry,
+.dark-mode.archive .hentry,
+.dark-mode.search .hentry {
+  /* autoprefixer: off */
+  box-shadow: none;
+  border-bottom: 2px solid #2f2f2f;
+  padding-bottom: 4em;
+}

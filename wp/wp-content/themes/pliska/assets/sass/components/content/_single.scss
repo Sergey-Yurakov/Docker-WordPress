@@ -1,0 +1,151 @@
+.entry-content {
+    .feather-twitter {
+        top: 4px;
+        left: 1px;
+    }
+}
+
+.feather-heart {
+    stroke: #ff7f7f;
+    transition: .5s all;
+}
+
+.feather-heart:hover, .feather-heart.voted {
+    stroke: #d01e1e;
+    fill: #d01e1e;
+}
+
+// author box
+
+.about-author {
+    padding: 1em 1em 2em;
+    margin: 2em 0;
+    @include box-shadow;
+    a {
+        color: #015759;
+    }
+}
+
+.about-author::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.about-author-image {
+    figure {
+        position: relative;
+        @include author-border;
+        width: 4em;
+    }
+    img{
+        border-radius: 50%;
+    }
+}
+
+// Related posts
+
+.related-posts-wrapper {
+    margin: 30px 0 20px;
+    h2 {
+        @include yellow-underline;
+        margin-bottom: 0;
+    }
+}
+
+.related-posts-link {
+    padding: 5px 0;
+}
+
+.related-post {
+    figure {
+        @include ov-hidden;
+    }
+    img {
+        border-radius: 5px;
+        transition: transform .8s ease-in-out, opacity .8s ease-in-out;
+    }
+    .post-thumbnail {
+        position: relative;
+        display: inline-block;
+		overflow: hidden;
+        @include img-border(1px);
+        &:hover {
+			img {
+				@include zoom;
+			}
+        }
+    }
+}
+
+.read-more a, .read-more a:hover {
+    color: #fff;
+}
+
+.read-more a {
+    @include right-arrow-animation;
+}
+
+.post-share a {
+    text-decoration: none;
+}
+
+// post navigation animation
+.nav-subtitle {
+    display: inline-block;
+    transition: .5s ease-in-out;
+}
+.nav-next a:hover .nav-subtitle {
+	transform: translateX(3px);
+    opacity: .75;
+}
+.nav-previous a:hover .nav-subtitle {
+	transform: translateX(-3px);
+    opacity: .75;
+}
+
+@media (min-width: 40em){
+
+    .about-author {
+        padding: 2em 3em 0;
+    }
+
+    .about-author-image {
+        float: left;
+        width: 16%;
+    }
+    .about-author-text {
+        float: right;
+        width: 84%;
+    }
+    
+    .related-post {
+        width: 32%;
+        max-width: 238px;
+        float: left;
+        margin-right: 9px;
+        img {
+            height: 180px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .no-sidebar .related-post {
+        max-width: none;
+        img {
+            height: 200px;
+        }
+    }
+    // Fix image height object height on IE11
+     _:-ms-fullscreen,
+        :root .related-post img {
+        height: auto;
+    }
+
+    .related-posts::after{
+        @include clearfix;
+    }
+    .about-author-text {
+        min-height: 200px;
+    }
+}

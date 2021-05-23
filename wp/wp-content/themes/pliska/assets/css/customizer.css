@@ -1,0 +1,60 @@
+.meta-arrow.hide {
+    display: none;
+}
+
+.meta-arrow.customize-partial-refreshing {
+    opacity: 1;
+}
+
+.breadcrumbs.hide {
+    display: none;
+}
+
+.breadcrumbs.customize-partial-refreshing {
+    opacity: 1;
+}
+
+.byline.hide,
+.posted-on.hide,
+.updated-on.hide,
+.time-read-links.hide,
+.tags-links.hide,
+.comments-link.hide {
+    display: none;
+}
+
+.byline.customize-partial-refreshing,
+.posted-on.customize-partial-refreshing,
+.updated-on.customize-partial-refreshing,
+.time-read-links.customize-partial-refreshing,
+.cat-links.customize-partial-refreshing,
+.tags-links.customize-partial-refreshing,
+.comments-link.customize-partial-refreshing{
+    opacity: 1;
+}
+
+.left-btn.hide,
+.right-btn.hide {
+    display: none;
+}
+
+.left-btn.customize-partial-refreshing,
+.right-btn.customize-partial-refreshing {
+    opacity: 1;
+}
+
+.related-posts-wrapper.hide, .about-author.hide, .post-share-wrap.hide, .user_like.hide, .hide + .like-counter {
+    display: none;
+}
+
+.related-posts-wrapper.customize-partial-refreshing, .about-author.customize-partial-refreshing, .post-share-wrap.customize-partial-refreshing, .user_like.customize-partial-refreshing {
+    opacity: 1;
+}
+
+.dark-mode-widget.hide {
+    display: none;
+}
+
+.dark-mode-menu-item.customize-partial-refreshing {
+    opacity: 1;
+}

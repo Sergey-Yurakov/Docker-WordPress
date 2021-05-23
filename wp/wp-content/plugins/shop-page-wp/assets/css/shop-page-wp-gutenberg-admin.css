@@ -1,0 +1,16 @@
+.wp-block-shop-page-wp-grid {
+    color: #333;
+    background-color: #FAFAFA;
+    border: 1px solid #EEE;
+    padding: 5px 10px 10px;
+}
+
+.wp-block-shop-page-wp-grid h4 {
+    margin: 0 0 5px 0;
+    color: #222;
+}
+
+/*.wp-block-gutenberg-boilerplate-es5-shop-page-wp input {
+
+    padding-left: 15px;
+}*/

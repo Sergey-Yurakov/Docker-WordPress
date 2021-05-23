@@ -1,0 +1,129 @@
+.widget {
+	margin: 0 0 2.75em;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+
+	&.widget_search {
+		border-bottom: 0;
+	}
+}
+
+.search-field {
+	height: 45px;
+}
+
+.search-icon {
+	height: 30px;
+	display: inline-block;
+	padding-top: 2px;
+}
+
+.widget ul li {
+	border-bottom: 1px solid rgba(0, 0, 0, .06);
+	padding-bottom: .5em;
+	ul li:last-child {
+		border: none;
+		padding-bottom: 0;
+	}
+}
+
+.widget ul li {
+	line-height: 1.8;
+	margin-bottom: 0.5em;
+	word-wrap: break-word;
+}
+
+.widget-area {
+	h2 {
+		@include yellow-underline;
+		display: inline-block;
+	}
+}
+
+// Recent posts widget
+
+.widget_recent_entries {
+	figure {
+		@include ov-hidden;
+	}
+
+	.has-thumb {
+		margin-bottom: 1.5em;
+	}
+
+	img {
+		transition: transform .8s ease-in-out, opacity .8s ease-in-out;
+	}
+	.post-thumbnail {
+        position: relative;
+        display: inline-block;
+		overflow: hidden;
+		margin-bottom: -1em;
+        @include img-border(1px);
+        &:hover {
+			img {
+				@include zoom;
+			}
+        }
+    }
+}
+
+.widget-area {
+	
+	.dark-mode-widget{
+		display: none;
+	}
+
+	ul {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		ul {
+			margin-left: 1em;
+		}
+	}
+
+	.wp-calendar-table tbody {
+		text-align: center;
+	}
+
+	// Tags Widget
+	.tagcloud a {
+		margin: 0 3px 5px 0;
+	}
+
+	.tagcloud a {
+		border: 1px solid #a7a6a6;
+		box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.09);
+		border-radius: 2px;
+		padding: 0 15px;
+		line-height: 32px;
+		height: 32px;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 10px !important;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		transition: background-color .35s ease-in-out, border-color .35s ease-in-out,
+			color 0.2s ease-in-out;
+	}
+
+	.widget_tag_cloud {
+		border: 0;
+	}
+
+}
+
+@media (min-width:40em) {
+	.blog,
+	.archive,
+	.search {
+		.widget_search {
+			padding-top: 20px;
+		}
+	}
+}

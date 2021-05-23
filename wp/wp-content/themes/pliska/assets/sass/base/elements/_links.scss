@@ -1,0 +1,13 @@
+a {
+	text-decoration: none;
+	transition: .4s all;
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

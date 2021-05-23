@@ -1,0 +1,24 @@
+#back-to-top {
+	display: none;
+	padding: 0;
+	min-height: auto;
+	position: fixed;
+    bottom: 30px;
+    border: 0;
+	right: 5px;
+	width: 41px;
+	height: 41px;
+	line-height: 42px;
+	border-radius: 100%;
+	font-size: 1.55em;
+	z-index: 99;
+	transition: all ease .4s;
+	.svg-icon {
+		top: 1px;
+		left: 2px;
+	}
+}
+
+#back-to-top:hover {
+	opacity: 1;
+}

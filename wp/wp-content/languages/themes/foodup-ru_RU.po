@@ -1,0 +1,95 @@
+# Translation of Themes - Foodup in Russian
+# This file is distributed under the same license as the Themes - Foodup package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-05 18:11:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Foodup\n"
+
+#. Description of the theme
+msgid "Foodup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Foodup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Foodup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/"
+msgstr ""
+"Foodup – быстрая, чистая, отзывчивая, современная тема WordPress для лучших новостных порталов. Тема полностью построена на виджетах, поэтому пользователи могут управлять содержимым с помощью простых виджетов. Foodup подходит для динамичных новостей, газет, журналов, издателей, блогов, редакторов, онлайн и игровых журналов, новостных порталов, персональных блогов, газет, сайтов для публикаций и обзоров, а также любых творческих сайтов. Foodup дружественна к SEO, WPML, Gutenberg, перевода и RTL. Предпросмотр темы: https://demo.themeansar.com/newsup \n"
+"Документация: https://docs.themeansar.com/docs/newsup/"
+
+#. Theme Name of the theme
+msgid "Foodup"
+msgstr "Foodup"
+
+#: header.php:49
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: frontpage-options.php:216 frontpage-options.php:308
+#: frontpage-options.php:399
+msgid "Open link in a new tab"
+msgstr "Открывать в новой вкладке"
+
+#: frontpage-options.php:201 frontpage-options.php:293
+#: frontpage-options.php:384
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: frontpage-options.php:184 frontpage-options.php:276
+#: frontpage-options.php:367
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: frontpage-options.php:167 frontpage-options.php:257
+#: frontpage-options.php:348
+msgid "Image"
+msgstr "Изображение"
+
+#: frontpage-options.php:147
+msgid "Enable Featured Post Section"
+msgstr "Включить раздел \"Избранные записи\""
+
+#: frontpage-options.php:106 frontpage-options.php:127
+#: frontpage-options.php:237 frontpage-options.php:328
+msgid "Featured Post"
+msgstr "Избранная запись"
+
+#: frontpage-options.php:94
+msgid "Select Tranding 2 Post category"
+msgstr "Выберите рубрику записей 2 для трендов"
+
+#: frontpage-options.php:93
+msgid "Category"
+msgstr "Рубрика"
+
+#: frontpage-options.php:70
+msgid "Trending Section"
+msgstr "Раздел трендов"
+
+#: frontpage-options.php:48
+msgid "Select Post"
+msgstr "Выберите запись"
+
+#: frontpage-options.php:31
+msgid "Latest Post"
+msgstr "Последнее сообщение"
+
+#: frontpage-options.php:14
+msgid "Choose Post"
+msgstr "Выберите запись"
+
+#. Theme URI of the theme
+msgid "https://themeansar.com/free-themes/foodup/"
+msgstr "https://themeansar.com/free-themes/foodup/"
+
+#. Author URI of the theme
+msgid "https://themeansar.com"
+msgstr "https://themeansar.com"
+
+#. Author of the theme
+msgid "Themeansar"
+msgstr "Themeansar"

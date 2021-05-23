@@ -1,0 +1,33 @@
+// grid flexbox styles
+.shop-page-wp-grid {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .shop-page-wp-item {
+    @media (min-width: 768px) {
+      &.spwp-full-width {
+        width: 100%;
+      }
+      &.spwp-one-half {
+        width: 50%;
+      }
+      &.spwp-one-third {
+        width: 33.3%;
+      }
+      &.spwp-one-fourth {
+        width: 25%;
+      }
+    }
+    // images will be full width all the time
+    // solves one probably but could cause others
+    // easier to let users resize images correctly
+    // .shop-page-wp-image {
+    //   width: 100%;
+    //   img {
+    //     width: 100%;
+    //   }
+    // }
+  }
+}
